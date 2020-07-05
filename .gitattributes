@@ -2,4 +2,5 @@
 *.htm inguist-detectable=false
 *.Roff linguist-detectable=false
 *.CSS linguist-detectable=false
+*.TeX linguist-detectable=false
 *.R linguist-detectable=true
