@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.17)  5 JUL 2020 12:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=latex 2020.6.17)  5 JUL 2020 15:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1119,35 +1119,28 @@ l. 551 --- needs --- newton_trace_WCVT-.png ---
 ] [44
 
 ]
-l.574 --- TeX4ht warning --- File `"alpha_trace_-6_3.xbb"' not found ---
-l.574 --- TeX4ht warning --- Cannot determine size of graphic in "alpha_trace_-
-6_3.xbb" (no BoundingBox) ---
-l. 574 --- needs --- alpha_trace_-6_3-.png ---
-l.580 --- TeX4ht warning --- File `"alpha_trace_6_3.xbb"' not found ---
-l.580 --- TeX4ht warning --- Cannot determine size of graphic in "alpha_trace_6
-_3.xbb" (no BoundingBox) ---
-l. 580 --- needs --- alpha_trace_6_3-.png ---
-l.586 --- TeX4ht warning --- File `"alpha_trace_0.xbb"' not found ---
-l.586 --- TeX4ht warning --- Cannot determine size of graphic in "alpha_trace_0
-.xbb" (no BoundingBox) ---
-l. 586 --- needs --- alpha_trace_0-.png ---
-l.592 --- TeX4ht warning --- File `"alpha_trace_2_3_shift_0_2_scale_0_8.xbb"' n
-ot found ---
-l.592 --- TeX4ht warning --- Cannot determine size of graphic in "alpha_trace_2
-_3_shift_0_2_scale_0_8.xbb" (no BoundingBox) ---
-l. 592 --- needs --- alpha_trace_2_3_shift_0_2_scale_0_8-.png ---
+l.572 --- TeX4ht warning --- File `"parameter-alpha-cropped.xbb"' not found ---
+
+l.572 --- TeX4ht warning --- Cannot determine size of graphic in "parameter-alp
+ha-cropped.xbb" (no BoundingBox) ---
+l. 572 --- needs --- parameter-alpha-cropped-.png ---
 [45
 
-] [46
+]
+
+LaTeX Warning: Reference `fig: alpha_negative' on page 46 undefined on input li
+ne 577.
+
+[46
 
 ] [47] [48
 
 ]
-l.623 --- TeX4ht warning --- File `"alpha_0_trace_close_is_good_enough.xbb"' no
+l.600 --- TeX4ht warning --- File `"alpha_0_trace_close_is_good_enough.xbb"' no
 t found ---
-l.623 --- TeX4ht warning --- Cannot determine size of graphic in "alpha_0_trace
+l.600 --- TeX4ht warning --- Cannot determine size of graphic in "alpha_0_trace
 _close_is_good_enough.xbb" (no BoundingBox) ---
-l. 623 --- needs --- alpha_0_trace_close_is_good_enough-.png ---
+l. 600 --- needs --- alpha_0_trace_close_is_good_enough-.png ---
 [49
 
 ] [50
@@ -1155,10 +1148,10 @@ l. 623 --- needs --- alpha_0_trace_close_is_good_enough-.png ---
 ] [51] [52] [53] [54] [55] [56] [57] [58] [59
 
 ]
-l.792 --- TeX4ht warning --- File `"example.xbb"' not found ---
-l.792 --- TeX4ht warning --- Cannot determine size of graphic in "example.xbb" 
+l.769 --- TeX4ht warning --- File `"example.xbb"' not found ---
+l.769 --- TeX4ht warning --- Cannot determine size of graphic in "example.xbb" 
 (no BoundingBox) ---
-l. 792 --- needs --- example-.png ---
+l. 769 --- needs --- example-.png ---
 [60
 
 ] [61
@@ -1166,24 +1159,28 @@ l. 792 --- needs --- example-.png ---
 ] [62
 
 ]
-l.817 --- TeX4ht warning --- File `"example_estimation.xbb"' not found ---
-l.817 --- TeX4ht warning --- Cannot determine size of graphic in "example_estim
+l.794 --- TeX4ht warning --- File `"example_estimation.xbb"' not found ---
+l.794 --- TeX4ht warning --- Cannot determine size of graphic in "example_estim
 ation.xbb" (no BoundingBox) ---
-l. 817 --- needs --- example_estimation-.png ---
+l. 794 --- needs --- example_estimation-.png ---
 [63
 
 ] (./main.bbl [64
 
 ] [65]) [66] [67
 
-] (./main.aux) ) 
-Here is how much of TeX's memory you used:
- 20650 strings out of 481240
- 377033 string characters out of 5920403
- 712040 words of memory out of 5000000
- 35205 multiletter control sequences out of 15000+600000
- 549721 words of font info for 83 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 68i,15n,76p,1880b,546s stack positions out of 5000i,500n,10000p,200000b,80000s
+] (./main.aux)
 
-Output written on main.dvi (324 pages, 474452 bytes).
+LaTeX Warning: There were undefined references.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 20598 strings out of 481240
+ 376095 string characters out of 5920403
+ 712078 words of memory out of 5000000
+ 35165 multiletter control sequences out of 15000+600000
+ 547404 words of font info for 74 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 68i,15n,76p,1880b,543s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.dvi (324 pages, 472308 bytes).

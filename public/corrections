@@ -2,7 +2,7 @@
 
 <p noindent
 
-&nbsp
+&nbsp 
 
 Figure 1: and the corresponding manifest variable 840 x 200
 
@@ -14,8 +14,17 @@ problem-definition Examples of pairs  191 × 157 mm
 height='628' alt='PIC' width='764'
 
 Newton trace
-190 × 254 mm
 380 x 508
 
+Trace of the Gauss-Newton method and function of error
+
+alpha 
+900x300
+
 Reconstruction from a sample
-356 × 254 mm
+712 × 508 mm
+
+Estimated manifest variables for male and female populations.
+
+
+

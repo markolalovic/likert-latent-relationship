@@ -1,22 +1,22 @@
 \contentsline {section}{\numberline {1}Introduction}{2}%
-\contentsline {section}{\numberline {2}Model}{2}%
-\contentsline {subsection}{\numberline {2.1}Sampling}{3}%
+\contentsline {section}{\numberline {2}Model}{3}%
+\contentsline {subsection}{\numberline {2.1}Sampling}{4}%
 \contentsline {subsection}{\numberline {2.2}Skew normal distribution}{4}%
 \contentsline {section}{\numberline {3}Discretization}{5}%
 \contentsline {subsection}{\numberline {3.1}Equal width discretization}{5}%
 \contentsline {paragraph}{Description of the equal width discretization procedure.}{5}%
-\contentsline {subsection}{\numberline {3.2}Optimal discretization}{5}%
+\contentsline {subsection}{\numberline {3.2}Optimal discretization}{6}%
 \contentsline {paragraph}{Description of the optimal discretization procedure.}{6}%
 \contentsline {subsection}{\numberline {3.3}Properties of optimal discretization}{7}%
 \contentsline {section}{\numberline {4}Simulation of Likert-type responses}{8}%
 \contentsline {subsection}{\numberline {4.1}Common approach}{8}%
-\contentsline {subsection}{\numberline {4.2}Proposed approach}{8}%
+\contentsline {subsection}{\numberline {4.2}Proposed approach}{9}%
 \contentsline {section}{\numberline {5}A procedure to reconstruct latent variables}{10}%
 \contentsline {subsection}{\numberline {5.1}Estimation of parameters $\xi $ and $\omega $}{10}%
-\contentsline {subsection}{\numberline {5.2}Estimation of parameter $\alpha $}{11}%
-\contentsline {subsection}{\numberline {5.3}Estimation of parameters from a sample}{12}%
+\contentsline {subsection}{\numberline {5.2}Estimation of parameter $\alpha $}{12}%
+\contentsline {subsection}{\numberline {5.3}Estimation of parameters from a sample}{13}%
 \contentsline {section}{\numberline {6}Comparison of two means}{13}%
 \contentsline {subsection}{\numberline {6.1}Common testing procedure}{14}%
-\contentsline {subsection}{\numberline {6.2}Problem with the common testing procedure}{15}%
+\contentsline {subsection}{\numberline {6.2}Problem with the common testing procedure}{16}%
 \contentsline {subsection}{\numberline {6.3}Proposed testing procedure on a concrete example}{16}%
-\contentsline {section}{\numberline {7}Conclusions}{17}%
+\contentsline {section}{\numberline {7}Conclusions}{18}%

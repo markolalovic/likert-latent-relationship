@@ -1,17 +1,16 @@
-htfcss: cmmi font-style: italic;
-htfcss: cmmib font-style: italic; font-weight: bold;
-htfcss: ptmr7t font-family: monospace,monospace;
 htfcss:  pcrr7t  font-family: 'Nimbus Mono L', serif;
 htfcss:  pcrbo7t  font-weight: bold; font-style: oblique; font-family: 'Nimbus Mono L', serif;
 htfcss: ptmb7t  font-weight: bold;
 htfcss: ptmri7t font-style: italic;
 htfcss: ptmb7t  font-weight: bold;
-htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: ptmb7t  font-weight: bold;
+htfcss: ptmr7t font-family: monospace,monospace;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
 htfcss: cmbsy font-weight: bold;
 htfcss: ptmr7t font-family: monospace,monospace;
+htfcss: cmmi font-style: italic;
+htfcss: cmmib font-style: italic; font-weight: bold;
 File: main.html
 File: main.css
 File: main.tmp
@@ -145,10 +144,7 @@ File: diagram-cropped-.png
 File: projection-cropped-.png
 File: problem-cropped-.png
 File: newton_trace_WCVT-.png
-File: alpha_trace_-6_3-.png
-File: alpha_trace_6_3-.png
-File: alpha_trace_0-.png
-File: alpha_trace_2_3_shift_0_2_scale_0_8-.png
+File: parameter-alpha-cropped-.png
 File: alpha_0_trace_close_is_good_enough-.png
 File: example-.png
 File: example_estimation-.png
@@ -176,14 +172,10 @@ Font("msam","5","5","100")
 Font("msbm","10","10","100")
 Font("msbm","7","7","100")
 Font("msbm","5","5","100")
-Font("ptmb7t","","10","144")
 Font("ptmr7t","","10","120")
+Font("ptmb7t","","10","144")
 Font("ptmb7t","","10","120")
 Font("ptmri7t","","10","100")
 Font("ptmb7t","","10","100")
 Font("pcrr7t","","10","100")
 Font("bbm","10","10","100")
-Font("ptmr7t","","10","90")
-Font("cmr","9","9","100")
-Font("cmmi","9","9","100")
-Font("cmsy","9","9","100")

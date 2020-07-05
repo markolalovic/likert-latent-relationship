@@ -23,8 +23,8 @@
 
 \begin{document}
 
-\title{A relationship between Likert-type responses and hypothetical latent variables}
-% Exploring the r
+\title{A relationship between Likert-type responses and hypothetical latent variables\\
+{\large Seminar for Computational Statistical Methods}}
 \author{Marko Lalović \\
 \\
 November 2018 \\
@@ -43,7 +43,7 @@ We investigate the relationship between the variables $X$ and $\hat{X}$, particu
 We also derive a mapping from $\hat{X}$ to $X$, called {\it reconstruction} that avoids arbitrary mapping of responses to numbers and the result allows the use of classical statistical methods. We investigate the simple problem of comparison of two means. We show that the common testing procedure is biased in general, since it doesn't take into account the discrete nature of Likert-type responses. Our proposed reconstruction procedure is based on the proportion of responses, as this provides minimal sufficient statistic for this problem. We illustrate our proposed testing procedure on a concrete example.
 \end{abstract}
 
-\keywords{Likert, Likert scale, Nonlinearity, Latent variable models, Statistical methodology, Psychometrics}
+\keywords{Likert, Likert scale, Nonlinearity, Latent variable models, Statistical methodology}
 
 \tableofcontents
 
@@ -62,7 +62,7 @@ and the optimal mapping $\mathcal{R}$:
 
 This problem can also be described in the language of NLPCA as follows. Find the mappings $\mathcal{D}$ and $\mathcal{R}$ such that:
 \begin{equation}
-X = \left( \mathcal{R} \circ \mathcal{D} \right) (X) + \epsilon,
+\hat{X} = \left( \mathcal{R} \circ \mathcal{D} \right) (X) + \epsilon,
 \end{equation}
 and minimize the expected value of the error $\norm{\epsilon^{2}}$. If we were to solve this problem using a neural network, we call such mappings {\it auto-associative neural network} or simply {\it autoencoder}. The optimal discretization is closely related to optimal scaling. Here we solve this problem using numerical methods, using the Lloyd-Max algorithm for optimal discretization and the adaptive Gauss-Newton method for optimal reconstruction. 
 
@@ -569,30 +569,7 @@ We choose the value of $\alpha$, which minimizes the error $\epsilon$.
 
 \begin{figure}[H]
 \centering
-\begin{subfigure}{.25\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{alpha_trace_-6_3.pdf}
-  \caption{ $\alpha = -6.3$.}
-  \label{fig: alpha_negative}
-\end{subfigure}%
-\begin{subfigure}{.25\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{alpha_trace_6_3.pdf}
-  \caption{ $\alpha = 6.3$.}
-  \label{fig: alpha_positive}
-\end{subfigure}%
-\begin{subfigure}{.25\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{alpha_trace_0.pdf}
-  \caption{ $\alpha = 0$.}
-  \label{fig: alpha0}
-\end{subfigure}%
-\begin{subfigure}{.25\textwidth}
-  \centering
-  \includegraphics[width=\linewidth]{alpha_trace_2_3_shift_0_2_scale_0_8.pdf}
-  \caption{ $\alpha = 2.3$.}
-  \label{fig: alpha_shift_and_scale}
-\end{subfigure}%
+\includegraphics[width=\linewidth]{parameter-alpha-cropped.pdf}
 \caption{ Estimation of the value of parameter $\alpha$.}
 \label{fig: alpha_reconstruction}
 \end{figure}
@@ -820,7 +797,9 @@ and $p$-value from $t$-distribution, where we calculate the degrees of freedom w
 \end{figure}
 
 \section{Conclusions}
-We introduce a model to explore the relationship between Likert-type responses and underlying hypothetical latent variables. Then derive the optimal relationship in the form of discretization and reconstruction procedures. We use this discretization procedure to simulate Likert-type responses. We then show the problem with the common approach to comparison of two means in the context of our model. And propose an alternative approach where we illustrate the use of our reconstruction procedure. Source code is available: here.
+We introduce a model to explore the relationship between Likert-type responses and underlying hypothetical latent variables. Then derive the optimal relationship in the form of discretization and reconstruction procedures. We use this discretization procedure to simulate Likert-type responses. We then show the problem with the common approach to comparison of two means in the context of our model. And propose an alternative approach where we illustrate the use of our reconstruction procedure. Source code is available at:
+
+\url{https://github.com/markolalovic/latent-variable-reconstruction}
 
 \bibliographystyle{ieeetr}
 \bibliography{main}

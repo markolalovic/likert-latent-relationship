@@ -1,0 +1,3 @@
+*.html linguist-detectable=false
+*.htm inguist-detectable=false
+*.R linguist-detectable=true
