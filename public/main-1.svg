@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?> 
+<?xml-stylesheet href="main.css" type="text/css"?> 
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150.7735pt" height="108.93074pt" viewBox="-0.2 -1.76706 150.7735 108.93074 "> 
+<g transform="translate(0, 107.16368 ) scale(1,-1) translate(0,1.76706 )"> 
+</p><g stroke="#000" fill="#000">
+ <g stroke-width="0.4">
+ <path d=" M 0.0 0.0 L 122.78949 94.29636  " fill="none"/>
+ <g transform="matrix(0.79308,0.60904,-0.60904,0.79308,122.78949,94.29636)">
+ <path d=" M 1.99997 0.0 L -1.19998 1.59998 L 0.0 0.0 L -1.19998 -1.59998  " stroke="none"/>
+  </g>
+ <path d=" M 0.0 0.0 L 122.39346 16.39781  " fill="none"/>
+ <g transform="matrix(0.99109,0.13277,-0.13277,0.99109,122.39346,16.39781)">
+ <path d=" M 1.99997 0.0 L -1.19998 1.59998 L 0.0 0.0 L -1.19998 -1.59998  " stroke="none"/>
+  </g>
+ <path d=" M 124.37561 95.5144 L 124.37561 18.6633  " fill="none"/>
+ <g transform="matrix(0.0,-1.0,1.0,0.0,124.37561,18.6633)">
+ <path d=" M 1.99997 0.0 L -1.19998 1.59998 L 0.0 0.0 L -1.19998 -1.59998  " stroke="none"/>
+  </g>
+ <g stroke-dasharray="3.0,3.0" stroke-dashoffset="0.0">
+ <path d=" M 124.37561 16.66333 M 112.99475 6.80719 C 123.88171 3.66441 137.8024 5.52945 144.08795 10.9729 C 150.3735 16.41635 146.64343 23.3767 135.75647 26.51947 C 124.8695 29.66225 110.94882 27.79721 104.66327 22.35376 C 98.37772 16.91031 102.10779 9.94997 112.99475 6.80719 Z M 124.37561 16.66333  " fill="none"/>
+ </g>
+ <g transform="translate(120.82455,99.04738)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(3.55106,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> <tspan font-family="cmmi" font-size="7">X</tspan></g> </g>
+ </text> 
+</g>
+ </g>
+ <g transform="translate(127.90858,14.27167)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(5.81842,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> <tspan font-family="cmmi" font-size="7">X</tspan><mo accent="true"><tspan font-family="cmmi" font-size="7">̂</tspan></mo></g> </g>
+ </text> 
+</g>
+ </g>
+ <g transform="translate(127.90858,53.69641)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(3.2207,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> <tspan font-family="cmsy" font-size="7">𝒟</tspan> </g> </g>
+ </text> 
+</g>
+ </g>
+ <g transform="translate(102.49715,1.56592)">
+ <g fill="#000">
+ <text style="stroke:none" transform="scale(1,-1) translate(3.09909,0)" text-anchor="middle"  font-size="10"> 
+<g fill="#000">
+ <g stroke="none"> <tspan font-family="cmmi" font-size="7">U</tspan> </g> </g>
+ </text> 
+</g>
+ </g>
+ </g>
+ </g>
+                                            </g> 
+</svg> 

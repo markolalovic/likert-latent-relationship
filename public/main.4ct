@@ -1,0 +1,34 @@
+\expandafter\ifx\csname doTocEntry\endcsname\relax \expandafter\endinput\fi 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-1000}{QQ2-1-1}{Contents}}{4}\relax 
+\doTocEntry\tocsection{1}{\csname a:TocLink\endcsname{1}{x1-20001}{QQ2-1-2}{Introduction}}{4}\relax 
+\doTocEntry\tocsection{2}{\csname a:TocLink\endcsname{1}{x1-30002}{QQ2-1-3}{Model}}{6}\relax 
+\doTocEntry\toclot{}{\csname a:TocLink\endcsname{1}{x1-3002}{}{\numberline {1}{\ignorespaces  Distribution of a manifest variable $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {4}{X}$.\relax }}}{8}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-3004}{}{\numberline {1}{\ignorespaces  Latent variable $X \sim \mathcal  {SN}(-0.76, 1, 3)$ and the corresponding manifest variable $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {4}{X}$.\relax }}}{11}\relax 
+\doTocEntry\tocsubsection{2.1}{\csname a:TocLink\endcsname{1}{x1-40002.1}{QQ2-1-4}{Sampling}}{13}\relax 
+\doTocEntry\tocsubsection{2.2}{\csname a:TocLink\endcsname{1}{x1-50002.2}{QQ2-1-5}{Skew normal distribution}}{16}\relax 
+\doTocEntry\tocsection{3}{\csname a:TocLink\endcsname{1}{x1-60003}{QQ2-1-6}{Discretization}}{18}\relax 
+\doTocEntry\tocsubsection{3.1}{\csname a:TocLink\endcsname{1}{x1-70003.1}{QQ2-1-7}{Equal width discretization}}{19}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-80003.1}{QQ2-1-8}{Description of the equal width discretization procedure.}}{19}\relax 
+\doTocEntry\tocsubsection{3.2}{\csname a:TocLink\endcsname{1}{x1-90003.2}{QQ2-1-9}{Optimal discretization}}{20}\relax 
+\doTocEntry\tocparagraph{}{\csname a:TocLink\endcsname{1}{x1-100003.2}{QQ2-1-10}{Description of the optimal discretization procedure.}}{20}\relax 
+\doTocEntry\tocsubsection{3.3}{\csname a:TocLink\endcsname{1}{x1-110003.3}{QQ2-1-11}{Properties of optimal discretization}}{22}\relax 
+\doTocEntry\tocsection{4}{\csname a:TocLink\endcsname{1}{x1-120004}{QQ2-1-12}{Simulation of Likert-type responses}}{27}\relax 
+\doTocEntry\tocsubsection{4.1}{\csname a:TocLink\endcsname{1}{x1-130004.1}{QQ2-1-13}{Common approach}}{28}\relax 
+\doTocEntry\tocsubsection{4.2}{\csname a:TocLink\endcsname{1}{x1-140004.2}{QQ2-1-14}{Proposed approach}}{28}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-14002}{}{\numberline {2}{\ignorespaces  Examples of pairs $X_{i}$, $\let \prOteCt \relax \let \prOteCt \relax \Protect \csname acp:c\endcsname {4}{X}_{i}$.\relax }}}{30}\relax 
+\doTocEntry\tocsection{5}{\csname a:TocLink\endcsname{1}{x1-150005}{QQ2-1-15}{A procedure to reconstruct latent variables}}{33}\relax 
+\doTocEntry\tocsubsection{5.1}{\csname a:TocLink\endcsname{1}{x1-160005.1}{QQ2-1-16}{Estimation of parameters $\xi $ and $\omega $}}{34}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-16009}{}{\numberline {3}{\ignorespaces  Trace of approximations using the adaptive Gauss-Newton method.\relax }}}{42}\relax 
+\doTocEntry\tocsubsection{5.2}{\csname a:TocLink\endcsname{1}{x1-170005.2}{QQ2-1-17}{Estimation of parameter $\alpha $}}{43}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-17007}{}{\numberline {4}{\ignorespaces  Estimation of the value of parameter $\alpha $.\relax }}}{45}\relax 
+\doTocEntry\tocsubsection{5.3}{\csname a:TocLink\endcsname{1}{x1-180005.3}{QQ2-1-18}{Estimation of parameters from a sample}}{46}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-18002}{}{\numberline {5}{\ignorespaces  Reconstruction from a sample.\relax }}}{49}\relax 
+\doTocEntry\tocsection{6}{\csname a:TocLink\endcsname{1}{x1-190006}{QQ2-1-19}{Comparison of two means}}{50}\relax 
+\doTocEntry\tocsubsection{6.1}{\csname a:TocLink\endcsname{1}{x1-200006.1}{QQ2-1-20}{Common testing procedure}}{50}\relax 
+\doTocEntry\tocsubsection{6.2}{\csname a:TocLink\endcsname{1}{x1-210006.2}{QQ2-1-21}{Problem with the common testing procedure}}{54}\relax 
+\doTocEntry\tocsubsection{6.3}{\csname a:TocLink\endcsname{1}{x1-220006.3}{QQ2-1-22}{Proposed testing procedure on a concrete example}}{57}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-22002}{}{\numberline {6}{\ignorespaces  Estimated manifest variables for male and female populations.\relax }}}{60}\relax 
+\doTocEntry\toclof{}{\csname a:TocLink\endcsname{1}{x1-22005}{}{\numberline {7}{\ignorespaces  Trace of the Gauss-Newton method and function of error $\epsilon $ in terms of $\alpha $ based on male responses.\relax }}}{63}\relax 
+\doTocEntry\tocsection{7}{\csname a:TocLink\endcsname{1}{x1-230007}{QQ2-1-23}{Conclusions}}{64}\relax 
+\doTocEntry\toclikesection{}{\csname a:TocLink\endcsname{1}{x1-240007}{QQ2-1-24}{References}}{64}\relax 
+\par 

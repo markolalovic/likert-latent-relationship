@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article}
+\usepackage{tikz, tikz-3dplot} 
+\usetikzlibrary{positioning}
+\usepackage{subfig}
+\usepackage{geometry}
+ \geometry{
+ a4paper,
+ total={170mm,257mm},
+ left=0mm,
+ top=20mm,
+ }
+
+ 
+\begin{document}
+\pagenumbering{gobble}
+
+\begin{center}
+\tdplotsetmaincoords{60}{120} 
+\begin{tikzpicture} [scale=4, tdplot_main_coords, axis/.style={->,blue,thick}, 
+vector/.style={-stealth}, 
+vector guide/.style={dashed}]
+
+%standard tikz coordinate definition using x, y, z coords
+\coordinate (O) at (0,0,0);
+
+%tikz-3dplot coordinate definition using x, y, z coords
+
+\pgfmathsetmacro{\ax}{-0.8}
+\pgfmathsetmacro{\ay}{0.8}
+\pgfmathsetmacro{\az}{0.8}
+
+\coordinate (P) at (\ax,\ay,\az);
+
+%draw a vector from O to P
+\draw[vector] (O) -- (P);
+
+%draw guide lines to components
+\draw[vector]         (O) -- (\ax,\ay,0);
+\draw[vector] (P) -- (\ax,\ay,0);
+
+\tdplotsetrotatedcoords{0}{0}{0}
+\begin{scope}[tdplot_rotated_coords]
+   \draw[dashed] (\ax,\ay,0) circle (0.2);
+\end{scope}
+
+% X_0, \hat{X}, U and \mathcal{D}
+\node[tdplot_main_coords,anchor=south] at (\ax,\ay,\az){\scriptsize $X$};
+\node[tdplot_main_coords,anchor=west] at (\ax,\ay,0){\scriptsize $\hat{X}$};
+\node[tdplot_main_coords,anchor=west] at (\ax,\ay,0.4){\scriptsize $\mathcal{D}$};
+\node[tdplot_main_coords,anchor=west] at (\ax - 0.61,\ay - 0.61, -0.61){\scriptsize $U$};
+\end{tikzpicture}	
+\end{center}
+
+
+\end{document}
