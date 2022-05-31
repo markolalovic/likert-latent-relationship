@@ -1,8 +1,4 @@
-The source code for: [*A relationship between Likert-type responses and hypothetical latent variables*](https://markolalovic.github.io/latent-variable-reconstruction) <br/>
-
-
-
-PDF version: [*A relationship between Likert-type responses and hypothetical latent variables*](https://github.com/markolalovic/latent-variable-reconstruction/blob/master/public/main.pdf)
+The source code for a seminar report: [*A relationship between Likert-type responses and hypothetical latent variables*](https://github.com/markolalovic/latent-variable-reconstruction/blob/master/public/main.pdf)
 
 ---
 
